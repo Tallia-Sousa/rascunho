@@ -50,6 +50,7 @@ img{
 	height: 170px;
 	
 }
+
 .box{
 	
 	position: absolute;
@@ -57,9 +58,12 @@ img{
     left: 0;
     right: 0;
     margin: auto;
-	width: 80%;
+	width: 54%;
 	background:#0000;
 	 
+}
+form{
+	width: 110%;
 }
 h3{
 	text-align: center;
@@ -73,13 +77,16 @@ h3{
 }
 .input-box{
 	position: relative;
-    margin: 30px;	 
+    	 
 	
+}
+.input-box input:focus, .input-box input:active{
+	border-bottom: 1px solid #7285f2;
 }
 .inputUser{
 	background:none;
 	border: none;
-	border-bottom: 1px solid #b1b1b1;
+	border-bottom: 2px solid #b1b1b1;
 	outline: none;
 	font-size: 18px;
 	width: 100%;
@@ -106,7 +113,7 @@ h3{
 	width: 0%;
 	position: absolute;
 	align-items: center;
-	 top: 5%;
+	top: 4%;
     left: 5%;
     transform: translate( -50%);
 	 
@@ -120,7 +127,7 @@ i:hover{
 }
 #submit{
   border: none;
-  width: 30%;
+  width: 37%;
   padding: 15px;
   color: white;
   font-size: 13px;
